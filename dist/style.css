@@ -8,14 +8,19 @@ body {
     background-color: rgb(119, 162, 126);
 }
 
+.container {
+    margin: 100px auto;
+    justify-content: space-evenly;
+}
+
 #navbar {
     background-color: var(--primary);
     color: var(--secondary);
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .navbar-brand {
-    font-size: 40px;
+    font-size: 50px;
     color: var(--secondary);
 }
 
@@ -24,8 +29,3 @@ body {
     color: var(--secondary);
 }
 
-.container {
-    margin: 100px auto;
-    justify-content: space-evenly;
-    display: flex;
-}
