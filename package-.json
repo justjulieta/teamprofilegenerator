@@ -1,0 +1,30 @@
+{
+    "name": "team-profile-generator",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "directories": {
+      "lib": "lib",
+      "test": "tests"
+    },
+    "scripts": {
+      "test": "jest"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Samualjensen/Team-Profile-Generator.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/justjulieta/teamprofilegenerator/issues"
+    },
+    "homepage": "https://github.com/justjulieta/teamprofilegenerator",
+    "dependencies": {
+      "email-validator": "^2.0.4",
+      "inquirer": "^8.2.4"
+    },
+    "devDependencies": {
+      "jest": "^29.3.1"
+    }
+  }
