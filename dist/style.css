@@ -1,0 +1,31 @@
+:root {
+    --primary: #135015;
+    --secondary: #fff;
+}
+
+body {
+    font-family: Verdana,Tahoma, sans-serif;
+    background-color: rgb(119, 162, 126);
+}
+
+#navbar {
+    background-color: var(--primary);
+    color: var(--secondary);
+    font-size: 50px;
+}
+
+.navbar-brand {
+    font-size: 40px;
+    color: var(--secondary);
+}
+
+.card-header {
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+.container {
+    margin: 100px auto;
+    justify-content: space-evenly;
+    display: flex;
+}
