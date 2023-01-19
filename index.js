@@ -1,18 +1,24 @@
+// Node Modules
 const inquirer = require('inquirer');
-const path = require('path');
 const fs = require('fs');
+const path = require('path');
+
+// Connect to GenerateHTML
+const generateHTML = require('./src/generateHTML');
 
 // Team Member Catagories
 const Manager = require('./lib/Manager');
 const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern');
 
-const DIST = path.resolve(__dirname, 'dist');
-const distPath = path.join(DIST, 'Myteam.html');
+// Team's Array
+const teamArray = [];
+const theTeam = [];
 
 // Function to initialize application:
-function init() {
-    buildTeam();
+function runApp() {
+    console.log('Ready to start your team?');
+    
 }
 
 // Initialize application:

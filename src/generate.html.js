@@ -1,4 +1,4 @@
-module.exports = myTeam => {
+module.exports = theTeam => {
     return `
     <!DOCTYPE html>
     <html lang="en">
@@ -44,7 +44,6 @@ const generateHTML = theTeam => {
             </div>
         `
     }
-
     const generateEngineer = engineer => {
         return `
         <div class="container card">
@@ -68,7 +67,6 @@ const generateHTML = theTeam => {
         </div>
         `
     }
-
     const generateIntern = intern => {
         return `
         <div class="container card">
@@ -91,19 +89,19 @@ const generateHTML = theTeam => {
         </div>
         `
     }
-    
+
     const html = [];
 
-    html.push(myTeam
+    html.push(theTeam
         .filter(employee => employee.getRole() === "Manager")
         .map(manager => generateManager(manager))
     );
-    html.push(myTeam
+    html.push(theTeam
         .filter(employee => employee.getRole() === "Engineer")
         .map(engineer => generateEngineer(engineer))
         .join("")
         );
-    html.push(myTeam
+    html.push(theTeam
         .filter(employee => employee.getRole() === "Intern")
         .map(intern => generateIntern(intern))
         .join("")
