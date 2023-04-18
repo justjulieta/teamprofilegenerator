@@ -60,7 +60,7 @@ function setupManager() {
                 answers.nameOfManager,
                 answers.idOfManager,
                 answers.emailOfManager,
-                answers.officeNumber,
+                answers.phoneNumber,
             );
             theTeam.push(teamManager);
             teamArray.push(answers.idOfManager);

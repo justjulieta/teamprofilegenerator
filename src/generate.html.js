@@ -38,7 +38,7 @@ const generateHTML = theTeam => {
                             ${manager.getEmail()}</a>
                         </li>
                         <li class="list-group-item">
-                            Office Number: ${manager.getOfficeNumber()}
+                            Phone Number: ${manager.getPhoneNumber()}
                         </li>
                 </div>
             </div>
