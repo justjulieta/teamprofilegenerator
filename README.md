@@ -16,7 +16,9 @@ When starting the application, a user will need to enter the team manager's name
 Once everything is completed and the user has exited the application, the HTML will be generated.
 
 
-## Functionality
+## Questions?
+Created by: Julieta RSN
 
-A link with a walkthrough video that shows the functionality of this application and all of the tests passing is available below:
+GitHub: https://www.github.com/justjulieta
 
+Email: julieta.ramirez27@gmail.com
