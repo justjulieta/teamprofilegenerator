@@ -1,9 +1,7 @@
-const team = require('./src/team');
+const buildTeam = require('./src/buildTeam');
 
-// Function to initialize app
 function init() {
-    team();
+    buildTeam();
 }
 
-// initialize app
 init();
